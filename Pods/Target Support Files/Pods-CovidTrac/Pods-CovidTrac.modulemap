@@ -1,0 +1,6 @@
+framework module Pods_CovidTrac {
+  umbrella header "Pods-CovidTrac-umbrella.h"
+
+  export *
+  module * { export * }
+}

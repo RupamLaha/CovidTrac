@@ -3,27 +3,83 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412BD7EE244F6940008F6D9D /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412BD7ED244F6940008F6D9D /* NewsViewController.swift */; };
+		412BD7F3244F739F008F6D9D /* cardShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412BD7F2244F739F008F6D9D /* cardShadow.swift */; };
+		412BD7F5244F7D23008F6D9D /* IndiaNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412BD7F4244F7D23008F6D9D /* IndiaNewsViewController.swift */; };
+		412BD7F7244F7E8F008F6D9D /* IndiaNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412BD7F6244F7E8F008F6D9D /* IndiaNewsTableViewCell.swift */; };
+		412BD7F9244F821C008F6D9D /* WorldNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412BD7F8244F821C008F6D9D /* WorldNewsViewController.swift */; };
+		412BD7FB244F8244008F6D9D /* WorldNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412BD7FA244F8244008F6D9D /* WorldNewsTableViewCell.swift */; };
+		41347DFE244996AF00C9E97E /* StateDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41347DFD244996AF00C9E97E /* StateDetails.swift */; };
+		41347E00244996F200C9E97E /* StateDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41347DFF244996F200C9E97E /* StateDetailsTableViewCell.swift */; };
+		41347E022449A82D00C9E97E /* WorldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41347E012449A82D00C9E97E /* WorldTableViewCell.swift */; };
+		41347E042449A84400C9E97E /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41347E032449A84400C9E97E /* World.swift */; };
+		414F4C0124483AB30041554F /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BF924483A3C0041554F /* Poppins-Black.ttf */; };
+		414F4C0224483AB70041554F /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BF624483A3C0041554F /* Poppins-BlackItalic.ttf */; };
+		414F4C0324483ABB0041554F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BF524483A3C0041554F /* Poppins-Bold.ttf */; };
+		414F4C0424483ABE0041554F /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BF824483A3C0041554F /* Poppins-BoldItalic.ttf */; };
+		414F4C0524483AC00041554F /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BF724483A3C0041554F /* Poppins-ExtraBold.ttf */; };
+		414F4C0624483AC30041554F /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BFA24483A3C0041554F /* Poppins-ExtraBoldItalic.ttf */; };
+		414F4C0724483AC60041554F /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BFB24483A3D0041554F /* Poppins-Italic.ttf */; };
+		414F4C0824483AC90041554F /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BFE24483A3D0041554F /* Poppins-Light.ttf */; };
+		414F4C0924483ACC0041554F /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BFC24483A3D0041554F /* Poppins-LightItalic.ttf */; };
+		414F4C0A24483ACF0041554F /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BF324483A3C0041554F /* Poppins-Medium.ttf */; };
+		414F4C0B24483AD10041554F /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BFF24483A3D0041554F /* Poppins-MediumItalic.ttf */; };
+		414F4C0C24483AD40041554F /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BF224483A3C0041554F /* Poppins-Regular.ttf */; };
+		414F4C0D24483AD60041554F /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BFD24483A3D0041554F /* Poppins-SemiBold.ttf */; };
+		414F4C0E24483AD90041554F /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414F4BF424483A3C0041554F /* Poppins-SemiBoldItalic.ttf */; };
+		414F4C14244854FD0041554F /* India.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414F4C13244854FD0041554F /* India.swift */; };
+		414F4C1C24486ED70041554F /* NavBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414F4C1B24486ED70041554F /* NavBanner.swift */; };
+		417138A22448EEBF001FB3E6 /* IndiaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417138A12448EEBF001FB3E6 /* IndiaTableViewCell.swift */; };
 		4172A29A2447333A00A99622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172A2992447333A00A99622 /* AppDelegate.swift */; };
 		4172A29C2447333A00A99622 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172A29B2447333A00A99622 /* SceneDelegate.swift */; };
-		4172A29E2447333A00A99622 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172A29D2447333A00A99622 /* ViewController.swift */; };
 		4172A2A12447333A00A99622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4172A29F2447333A00A99622 /* Main.storyboard */; };
 		4172A2A32447333E00A99622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4172A2A22447333E00A99622 /* Assets.xcassets */; };
 		4172A2A62447333E00A99622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4172A2A42447333E00A99622 /* LaunchScreen.storyboard */; };
+		D335FDA2331E04392D4CCEAD /* Pods_CovidTrac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D7CE17BE9F79AB7D42AF5C /* Pods_CovidTrac.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		412BD7ED244F6940008F6D9D /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		412BD7F2244F739F008F6D9D /* cardShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cardShadow.swift; sourceTree = "<group>"; };
+		412BD7F4244F7D23008F6D9D /* IndiaNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaNewsViewController.swift; sourceTree = "<group>"; };
+		412BD7F6244F7E8F008F6D9D /* IndiaNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaNewsTableViewCell.swift; sourceTree = "<group>"; };
+		412BD7F8244F821C008F6D9D /* WorldNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldNewsViewController.swift; sourceTree = "<group>"; };
+		412BD7FA244F8244008F6D9D /* WorldNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldNewsTableViewCell.swift; sourceTree = "<group>"; };
+		41347DFD244996AF00C9E97E /* StateDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDetails.swift; sourceTree = "<group>"; };
+		41347DFF244996F200C9E97E /* StateDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		41347E012449A82D00C9E97E /* WorldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTableViewCell.swift; sourceTree = "<group>"; };
+		41347E032449A84400C9E97E /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		414F4BF224483A3C0041554F /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		414F4BF324483A3C0041554F /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		414F4BF424483A3C0041554F /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		414F4BF524483A3C0041554F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		414F4BF624483A3C0041554F /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		414F4BF724483A3C0041554F /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		414F4BF824483A3C0041554F /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		414F4BF924483A3C0041554F /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		414F4BFA24483A3C0041554F /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		414F4BFB24483A3D0041554F /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		414F4BFC24483A3D0041554F /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		414F4BFD24483A3D0041554F /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		414F4BFE24483A3D0041554F /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		414F4BFF24483A3D0041554F /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		414F4C13244854FD0041554F /* India.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = India.swift; sourceTree = "<group>"; };
+		414F4C1B24486ED70041554F /* NavBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBanner.swift; sourceTree = "<group>"; };
+		417138A12448EEBF001FB3E6 /* IndiaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaTableViewCell.swift; sourceTree = "<group>"; };
 		4172A2962447333A00A99622 /* CovidTrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidTrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4172A2992447333A00A99622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4172A29B2447333A00A99622 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4172A29D2447333A00A99622 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4172A2A02447333A00A99622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4172A2A22447333E00A99622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4172A2A52447333E00A99622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4172A2A72447333E00A99622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5515AA439656B3F2991CC50C /* Pods-CovidTrac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidTrac.debug.xcconfig"; path = "Target Support Files/Pods-CovidTrac/Pods-CovidTrac.debug.xcconfig"; sourceTree = "<group>"; };
+		63FB735FF25263F9E10AED6E /* Pods-CovidTrac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidTrac.release.xcconfig"; path = "Target Support Files/Pods-CovidTrac/Pods-CovidTrac.release.xcconfig"; sourceTree = "<group>"; };
+		F8D7CE17BE9F79AB7D42AF5C /* Pods_CovidTrac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovidTrac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +87,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D335FDA2331E04392D4CCEAD /* Pods_CovidTrac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		412BD7EF244F6968008F6D9D /* News */ = {
+			isa = PBXGroup;
+			children = (
+				412BD7ED244F6940008F6D9D /* NewsViewController.swift */,
+				412BD7F4244F7D23008F6D9D /* IndiaNewsViewController.swift */,
+				412BD7F6244F7E8F008F6D9D /* IndiaNewsTableViewCell.swift */,
+				412BD7F8244F821C008F6D9D /* WorldNewsViewController.swift */,
+				412BD7FA244F8244008F6D9D /* WorldNewsTableViewCell.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		41347E052449A85E00C9E97E /* India */ = {
+			isa = PBXGroup;
+			children = (
+				414F4C13244854FD0041554F /* India.swift */,
+				417138A12448EEBF001FB3E6 /* IndiaTableViewCell.swift */,
+			);
+			path = India;
+			sourceTree = "<group>";
+		};
+		41347E062449A87900C9E97E /* IndiaStates */ = {
+			isa = PBXGroup;
+			children = (
+				41347DFD244996AF00C9E97E /* StateDetails.swift */,
+				41347DFF244996F200C9E97E /* StateDetailsTableViewCell.swift */,
+			);
+			path = IndiaStates;
+			sourceTree = "<group>";
+		};
+		41347E072449A89100C9E97E /* World */ = {
+			isa = PBXGroup;
+			children = (
+				41347E032449A84400C9E97E /* World.swift */,
+				41347E012449A82D00C9E97E /* WorldTableViewCell.swift */,
+			);
+			path = World;
+			sourceTree = "<group>";
+		};
+		414F4C0024483A760041554F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				414F4BF924483A3C0041554F /* Poppins-Black.ttf */,
+				414F4BF624483A3C0041554F /* Poppins-BlackItalic.ttf */,
+				414F4BF524483A3C0041554F /* Poppins-Bold.ttf */,
+				414F4BF824483A3C0041554F /* Poppins-BoldItalic.ttf */,
+				414F4BF724483A3C0041554F /* Poppins-ExtraBold.ttf */,
+				414F4BFA24483A3C0041554F /* Poppins-ExtraBoldItalic.ttf */,
+				414F4BFB24483A3D0041554F /* Poppins-Italic.ttf */,
+				414F4BFE24483A3D0041554F /* Poppins-Light.ttf */,
+				414F4BFC24483A3D0041554F /* Poppins-LightItalic.ttf */,
+				414F4BF324483A3C0041554F /* Poppins-Medium.ttf */,
+				414F4BFF24483A3D0041554F /* Poppins-MediumItalic.ttf */,
+				414F4BF224483A3C0041554F /* Poppins-Regular.ttf */,
+				414F4BFD24483A3D0041554F /* Poppins-SemiBold.ttf */,
+				414F4BF424483A3C0041554F /* Poppins-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		4172A28D2447333A00A99622 = {
 			isa = PBXGroup;
 			children = (
+				414F4C0024483A760041554F /* Fonts */,
 				4172A2982447333A00A99622 /* CovidTrac */,
 				4172A2972447333A00A99622 /* Products */,
+				91DC3030CF3ACF61943CD2CB /* Pods */,
+				FD218C21006965C38A850D78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +176,37 @@
 		4172A2982447333A00A99622 /* CovidTrac */ = {
 			isa = PBXGroup;
 			children = (
+				412BD7EF244F6968008F6D9D /* News */,
+				41347E072449A89100C9E97E /* World */,
+				41347E062449A87900C9E97E /* IndiaStates */,
+				41347E052449A85E00C9E97E /* India */,
 				4172A2992447333A00A99622 /* AppDelegate.swift */,
 				4172A29B2447333A00A99622 /* SceneDelegate.swift */,
-				4172A29D2447333A00A99622 /* ViewController.swift */,
+				414F4C1B24486ED70041554F /* NavBanner.swift */,
 				4172A29F2447333A00A99622 /* Main.storyboard */,
-				4172A2A22447333E00A99622 /* Assets.xcassets */,
 				4172A2A42447333E00A99622 /* LaunchScreen.storyboard */,
+				4172A2A22447333E00A99622 /* Assets.xcassets */,
 				4172A2A72447333E00A99622 /* Info.plist */,
+				412BD7F2244F739F008F6D9D /* cardShadow.swift */,
 			);
 			path = CovidTrac;
+			sourceTree = "<group>";
+		};
+		91DC3030CF3ACF61943CD2CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5515AA439656B3F2991CC50C /* Pods-CovidTrac.debug.xcconfig */,
+				63FB735FF25263F9E10AED6E /* Pods-CovidTrac.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD218C21006965C38A850D78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8D7CE17BE9F79AB7D42AF5C /* Pods_CovidTrac.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4172A2AA2447333E00A99622 /* Build configuration list for PBXNativeTarget "CovidTrac" */;
 			buildPhases = (
+				C07458ADEC727BAAF50C0E79 /* [CP] Check Pods Manifest.lock */,
 				4172A2922447333A00A99622 /* Sources */,
 				4172A2932447333A00A99622 /* Frameworks */,
 				4172A2942447333A00A99622 /* Resources */,
+				D09983FA4F51595A0046BF0C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +269,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414F4C0124483AB30041554F /* Poppins-Black.ttf in Resources */,
+				414F4C0324483ABB0041554F /* Poppins-Bold.ttf in Resources */,
+				414F4C0424483ABE0041554F /* Poppins-BoldItalic.ttf in Resources */,
+				414F4C0A24483ACF0041554F /* Poppins-Medium.ttf in Resources */,
+				414F4C0E24483AD90041554F /* Poppins-SemiBoldItalic.ttf in Resources */,
+				414F4C0624483AC30041554F /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				414F4C0D24483AD60041554F /* Poppins-SemiBold.ttf in Resources */,
+				414F4C0B24483AD10041554F /* Poppins-MediumItalic.ttf in Resources */,
 				4172A2A62447333E00A99622 /* LaunchScreen.storyboard in Resources */,
+				414F4C0524483AC00041554F /* Poppins-ExtraBold.ttf in Resources */,
+				414F4C0224483AB70041554F /* Poppins-BlackItalic.ttf in Resources */,
+				414F4C0C24483AD40041554F /* Poppins-Regular.ttf in Resources */,
+				414F4C0924483ACC0041554F /* Poppins-LightItalic.ttf in Resources */,
 				4172A2A32447333E00A99622 /* Assets.xcassets in Resources */,
+				414F4C0724483AC60041554F /* Poppins-Italic.ttf in Resources */,
+				414F4C0824483AC90041554F /* Poppins-Light.ttf in Resources */,
 				4172A2A12447333A00A99622 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C07458ADEC727BAAF50C0E79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CovidTrac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09983FA4F51595A0046BF0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovidTrac/Pods-CovidTrac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovidTrac/Pods-CovidTrac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidTrac/Pods-CovidTrac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4172A2922447333A00A99622 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4172A29E2447333A00A99622 /* ViewController.swift in Sources */,
+				417138A22448EEBF001FB3E6 /* IndiaTableViewCell.swift in Sources */,
+				412BD7F5244F7D23008F6D9D /* IndiaNewsViewController.swift in Sources */,
+				41347DFE244996AF00C9E97E /* StateDetails.swift in Sources */,
 				4172A29A2447333A00A99622 /* AppDelegate.swift in Sources */,
+				412BD7F9244F821C008F6D9D /* WorldNewsViewController.swift in Sources */,
+				412BD7EE244F6940008F6D9D /* NewsViewController.swift in Sources */,
+				412BD7F7244F7E8F008F6D9D /* IndiaNewsTableViewCell.swift in Sources */,
+				41347E042449A84400C9E97E /* World.swift in Sources */,
+				41347E00244996F200C9E97E /* StateDetailsTableViewCell.swift in Sources */,
+				412BD7F3244F739F008F6D9D /* cardShadow.swift in Sources */,
+				414F4C1C24486ED70041554F /* NavBanner.swift in Sources */,
 				4172A29C2447333A00A99622 /* SceneDelegate.swift in Sources */,
+				414F4C14244854FD0041554F /* India.swift in Sources */,
+				412BD7FB244F8244008F6D9D /* WorldNewsTableViewCell.swift in Sources */,
+				41347E022449A82D00C9E97E /* WorldTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +494,7 @@
 		};
 		4172A2AB2447333E00A99622 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5515AA439656B3F2991CC50C /* Pods-CovidTrac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +507,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rupamlaha.CovidTrac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4172A2AC2447333E00A99622 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FB735FF25263F9E10AED6E /* Pods-CovidTrac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +526,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rupamlaha.CovidTrac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
